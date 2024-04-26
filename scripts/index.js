@@ -27,7 +27,7 @@ function subtract(){
     let number1 = Number(document.querySelector("#number1Field").value);
     let number2 = Number(document.querySelector("#number2Field").value);
 
-    let result = number1 + number2;
+    let result = number1 - number2;
     
     document.querySelector("#answerField").value = result;
 
@@ -36,7 +36,7 @@ function multiply(){
     let number1 = Number(document.querySelector("#number1Field").value);
     let number2 = Number(document.querySelector("#number2Field").value);
 
-    let result = number1 + number2;
+    let result = number1 * number2;
     
     document.querySelector("#answerField").value = result;
 
@@ -45,7 +45,7 @@ function divide(){
     let number1 = Number(document.querySelector("#number1Field").value);
     let number2 = Number(document.querySelector("#number2Field").value);
 
-    let result = number1 + number2;
+    let result = number1 / number2;
     
     document.querySelector("#answerField").value = result;
 
